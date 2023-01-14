@@ -15,11 +15,6 @@
     "web:generate": "yarn plop --plopfile generators/web-plopfile.js",
     "postinstall": "husky install"
   },
-  "lint-staged": {
-    "*": [
-      "yarn lint"
-    ]
-  },
   "devDependencies": {
     "lint-staged": "^13.0.3",
     "husky": "^8.0.1",
