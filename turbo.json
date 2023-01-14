@@ -13,6 +13,8 @@
     },
     "test": {},
     "test:watch": {},
-    "storybook": {}
+    "storybook": {},
+    "build-storybook": {},
+    "generate": {}
   }
 }

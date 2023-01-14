@@ -10,9 +10,20 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
-    "storybook": "turbo run storybook --parallel --filter=web"
+    "web:storybook": "turbo run storybook --parallel --filter=web",
+    "web:build-storybook": "turbo run build-storybook --parallel --filter=web",
+    "web:generate": "yarn plop --plopfile generators/web-plopfile.js",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "*": [
+      "yarn lint"
+    ]
   },
   "devDependencies": {
+    "lint-staged": "^13.0.3",
+    "husky": "^8.0.1",
+    "plop": "^3.1.1",
     "prettier": "latest",
     "turbo": "latest"
   }

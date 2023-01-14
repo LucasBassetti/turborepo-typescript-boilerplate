@@ -1,8 +1,8 @@
+# Turborepo Boilerplate
 
-This is a [Next.js](https://nextjs.org/) boilerplate created based in [this boilerplate](https://github.com/React-Avancado/boilerplate)
+[Turborepo](https://turbo.build/repo) boilerplate with the following stack:
 
-This project uses lot of stuff as:
-
+- [Turborepo](https://turbo.build/repo)
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
@@ -27,9 +27,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Folder Strucutre
+## Apps Folder Strucutre
 
-The following aspects were used to create the folder structure
+The following aspects were used to create the `apps` folder structure
 
 ```
 ↳ @types                            # extension types (not related to application types)
