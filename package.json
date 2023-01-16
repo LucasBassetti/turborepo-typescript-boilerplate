@@ -10,8 +10,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test",
     "test:watch": "turbo run test:watch",
-    "web:storybook": "turbo run storybook --parallel --filter=web",
-    "web:build-storybook": "turbo run build-storybook --parallel --filter=web",
+    "web:storybook": "turbo run storybook --filter=web",
+    "web:build-storybook": "turbo run build-storybook --filter=web",
     "web:generate": "yarn plop --plopfile generators/web-plopfile.js",
     "postinstall": "husky install"
   },

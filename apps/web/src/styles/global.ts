@@ -1,10 +1,8 @@
-import { createGlobalStyle, css, DefaultTheme, GlobalStyleComponent } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
-type GlobalStylesProps = {
-  //
-};
+import { Theme } from './theme';
 
-const GlobalStyles: GlobalStyleComponent<GlobalStylesProps, DefaultTheme> = createGlobalStyle`
+const GlobalStyles = createGlobalStyle<{ theme: Theme }>`
   @font-face {
     font-display: swap;
     font-family: 'Poppins';
