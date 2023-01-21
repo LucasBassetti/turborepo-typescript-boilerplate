@@ -5,16 +5,6 @@ module.exports = {
     jest: true,
     node: true,
   },
-  settings: {
-    react: {
-      version: "detect",
-    },
-    "import/resolver": {
-      node: {
-        paths: ["src"],
-      },
-    },
-  },
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
