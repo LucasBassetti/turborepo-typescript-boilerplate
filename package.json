@@ -2,10 +2,13 @@
   "name": "turbo-typescript-boilerplate",
   "version": "1.0.0",
   "private": true,
-  "workspaces": ["packages/*", "apps/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build", 
+    "build": "turbo run build",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo run test",
@@ -16,9 +19,10 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "husky": "^8.0.1",
+    "husky": "^8.0.3",
     "plop": "^3.1.1",
     "prettier": "latest",
     "turbo": "latest"
-  }
+  },
+  "dependencies": {}
 }
